@@ -1,0 +1,226 @@
+.header{
+    padding:3vw; 
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    font-family:'Times';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+   
+}
+*{
+    margin: 0px;
+    color: white;
+    letter-spacing: .1vw;
+}
+.bg{
+    background-color: black;
+    padding-left:5vw;
+}
+
+.start{
+    font-size:2.5vw;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.7vw;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.main-content{
+    display: grid;
+    grid-template-columns:auto;
+    position:relative;
+    top:10vh;
+    padding: 6vw;
+    padding-left: 6vw;
+    background-image: url("./hot-deals@2x.jpg");
+    background-size: cover;
+    color:white;
+ 
+}
+.hig{
+font-size: 6vw;
+font-weight: 700;
+padding-bottom: 4vw;
+}
+.low{
+    width: 45vw;
+    font-size: 19px;
+    border-top: 5px solid red;
+    padding-top:1vw ;
+}
+.about-us{
+    padding-bottom: 8vw;
+    padding-top: 20vw;
+    background-color: black;
+}
+.about{  
+    display: flex;
+   flex-direction: row;
+    gap: 24vw;
+    padding-top: 5vw;
+   
+}
+
+
+.h11{
+    width: 40vh;
+    margin: auto;
+    border-bottom: 5px solid red ;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+.r img{
+    width:30vw;
+}
+.l{
+   border-top: 2px solid red ;
+   width: 30vw;
+}
+
+a{
+    text-decoration: none;
+}
+.line{
+    width: 425px;
+    border-top: 5px solid red;
+}
+.menu{
+    padding: 5vw;
+
+}
+.menu1 p{
+    padding-top: 2vw;
+}
+
+.menu2{
+    padding-top:8vw ;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 6vw;
+
+}
+.menu2 img{
+    width: 30vh;
+    border-radius: 5px;
+}
+
+.items{
+    display: flex;flex-direction: row;
+    gap: 2vw;
+    
+}
+.items>div>h4{
+    color: orange;
+}
+
+.find-us{
+    padding:5vw;
+    background-color: black;
+}
+.find-cont{
+    padding-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+.inp{
+    width: 24vw;
+    padding-bottom: 3vw;
+}
+.fright img{
+    width: 35vw;
+}
+.loc>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+    padding: 1vw;
+
+}
+.footer{
+    padding-right: 6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer img{
+    width: 10vw;
+}
+@media  (max-width:700px){
+    .about{
+    display: grid;
+       grid-template-columns: repeat(1,auto);
+       grid-template-rows: repeat(2,auto);
+       gap:1vw;
+       padding-left: 2vw;
+    
+    }
+    .l{
+        width: 75vw;
+        padding-bottom: 3vw;
+    }
+    .about img{
+        width:75vw;
+    }
+    
+    .menu{
+        padding-left: 40px;
+    }
+    .menu2{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        padding-left: 0px;
+    }
+    .find-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        padding-left: 0px;
+    }
+    .find-cont img{
+        width: 60vw;
+    }
+    .find-us{
+        padding-left: 8vw;
+    }
+    .footer{
+        padding-left: 8vw;
+        padding-top: 0px;
+        padding-bottom:10vw ;
+        display: flex;
+        flex-direction: column;
+        gap:10vw;
+    }
+
+    .main-content{
+        padding-left:0px;
+    }
+
+    .hig{
+    padding-left: 0px;
+
+    }
+    .low{
+        padding-left: 0px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+} 
+    
